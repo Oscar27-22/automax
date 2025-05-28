@@ -229,4 +229,3 @@ function renderCars() {
 }
 
 document.addEventListener("DOMContentLoaded", renderCars);
-
