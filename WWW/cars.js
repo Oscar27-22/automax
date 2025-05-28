@@ -213,7 +213,7 @@ function renderCars(){
         if (isClickable){
             card.style.cursor = "pointer";
             card.addEventListener("click", () => {
-                window.location.href = `detail${car.id}.html`
+                window.location.href = `carDetail${car.id}.html`
             })
         }
 
